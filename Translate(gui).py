@@ -10,7 +10,7 @@ def tran():
 root = Tk()
 root.geometry("500x500")
 root.title("Translator")
-root.resizable(width=False, height=False) # should be resizeable
+root.resizable(width=True, height=True) # should be resizeable
 root['bg'] = 'black'
 translator = Translator()
 
